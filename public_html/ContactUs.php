@@ -128,7 +128,7 @@
                             <label for="message" class="label">Message:</label>
                             <textarea class="form-control contact-form-control" name="message" placeholder="What's up? " required></textarea>
                         </div>
-                        <div class="g-recaptcha" data-sitekey="6LdhNAoTAAAAAFlesqryKjUJIKN-QVqdqDVwuYoA"></div>
+                        <div class="g-recaptcha" data-sitekey="6LchxGsUAAAAAJTYjjxfZ5dfHurxzSS1PB6mnVCE"></div>
                         <button type="submit" class="btn btn-default">Send Email</button>
                     </form>
                 </div>

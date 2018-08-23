@@ -33,7 +33,7 @@ if(!$mail->send()) {
 } else {
     echo "<script language='javascript' type='text/javascript'>
         alert('Thank you for your email!');
-        window.location = '../ContactUs';
+        window.location = '../ContactUs.php';
     </script>";
 }
 ?>
