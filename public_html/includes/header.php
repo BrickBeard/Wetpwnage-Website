@@ -31,7 +31,7 @@
                         <span class="icon-bar"></span>
                         <span class="icon-bar"></span>
                     </button>
-                    <a class="navbar-brand" href="Home">
+                    <a class="navbar-brand" href="Home.php">
                         <img src="Images/Logos/NewLogoDesignCroppedHueUpdate.png" alt="Wet Pwnage" alt="Uber Domination">
                     </a>
                 </div>
@@ -41,36 +41,36 @@
                         <li class="dropdown gamesNav <?php echo $portfolio_active; ?>">
                             <a href="#" class="dropbtn">Portfolio</a>
                             <!--<div class="dropdown-content">
-                                <a href="Games">Games</a>
-                                <a href="Leaderboards">Leaderboards</a>
+                                <a href="Games.php">Games</a>
+                                <a href="Leaderboards.php">Leaderboards</a>
                             </div>-->
                             <ul class="dropdown-content dropdown-menu" role="menu" id="gamesMenu">
-                                <li><a href="underConstruction">Projects</a>
+                                <li><a href="underConstruction.php">Projects</a>
                                     <!--<ul class="nav navbar-nav menu">
                                         <li>SpankBall (Under Construction)</li>
                                         <li>Project 2 (Under Construction)</li>
                                     </ul>-->
                                 </li>   
-                                <li><a href="underConstruction">In-Development</a></li>
+                                <li><a href="underConstruction.php">In-Development</a></li>
                             </ul> 
                         </li>
                         <li class="dropdown gamesNav <?php echo $games_active; ?>">
-                            <a href="Games" class="dropbtn">Games</a>
+                            <a href="Games.php" class="dropbtn">Games</a>
                             <!--<div class="dropdown-content">
-                                <a href="Games">Games</a>
-                                <a href="Leaderboards">Leaderboards</a>
+                                <a href="Games.php">Games</a>
+                                <a href="Leaderboards.php">Leaderboards</a>
                             </div>-->
                             <ul class="dropdown-content dropdown-menu" role="menu" id="gamesMenu">
-                                <li><a href="Media">Media</a>
+                                <li><a href="Media.php">Media</a>
                                     <!--<ul class="nav navbar-nav menu">
                                         <li>SpankBall (Under Construction)</li>
                                         <li>Project 2 (Under Construction)</li>
                                     </ul>-->
                                 </li>   
-                                <li><a href="Leaderboards">Leaderboards</a></li>
+                                <li><a href="Leaderboards.php">Leaderboards</a></li>
                             </ul> 
                         </li>
-                        <li class='<?php echo $contactUs_active; ?>'><a href="ContactUs">Contact Us</a></li>
+                        <li class='<?php echo $contactUs_active; ?>'><a href="ContactUs.php">Contact Us</a></li>
             <!--   TESTING LOGIN / REGISTER DROPDOWN   --->                          
                     <?php 
                         if (!isset ($_SESSION['id'])) { 
@@ -92,7 +92,7 @@
                                         <label for='user_remember_me' style='margin-top: 3px;'> Remember me</label>
                                         <input class='btn btn-primary' type='submit' name='commit' value='Sign In' style='clear: left; width: 100%; height: 32px; font-size: 13px;'  />
                                         <div class='text-center' id='register'>
-                                            <a href='Registration'>Register</a>
+                                            <a href='Registration.php'>Register</a>
                                         </div>
                                     </form>
                                 </div>
@@ -102,10 +102,10 @@
                     ?>
                         <li class='<?php echo $myAccount_active; ?>' id="accountLink">
                             <span class='fa-stack fa-2x'>
-                                <a href="myAccount">
+                                <a href="myAccount.php">
                                     <i class='fa fa-square-o fa-stack-2x'></i>
                                 </a>
-                                <a href="myAccount">
+                                <a href="myAccount.php">
                                    <?php if(isset($_SESSION['initials'])) {
                                         echo "<strong class='fa-stack-1x' id='accountIcon'>".$_SESSION['initials']."</strong>";
                                     } else {
@@ -126,7 +126,7 @@
             <?php 
                 if (isset ($_SESSION['id'])) {
                     echo "Logged in as: <span>" . $_SESSION['username'] . "</span>";    
-                    echo  "<a href='includes/logout' role='button' class='btn btn-danger btn-xs'>Logout</a>";/*"<a href='myAccount' role='button' class='btn btn-basic btn-xs'>My Account</a>";*/
+                    echo  "<a href='includes/logout.php' role='button' class='btn btn-danger btn-xs'>Logout</a>";/*"<a href='myAccount.php' role='button' class='btn btn-basic btn-xs'>My Account</a>";*/
                 } else if (isset ($_SESSION['reason'])) {
                     echo "<span>".$_SESSION['reason']."</span>";
                     unset($_SESSION['reason']);
