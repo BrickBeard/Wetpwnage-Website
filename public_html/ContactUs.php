@@ -111,7 +111,7 @@
                 </div>
         <!---------- emailToDisplay Option 1 END ---------->
                 <div class="col-xs-12 col-sm-6 col-sm-offset-1"> <!--col-sm-offset-3-->
-                    <form action="includes/formProcessor.php" method="post" name="emailForm" id="emailForm">
+                    <form action="includes/formProcessor.php" method="POST" name="emailForm" id="emailForm">
                         <div class="form-group contact-form-group" style="display: none;">
                             <label for="emailId" class="label">TO:</label>
                             <input type="text" class="form-control contact-form-control emailId" name="emailId" value="support@wetpwnage.com">

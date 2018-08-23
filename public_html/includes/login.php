@@ -58,7 +58,7 @@ if ($checkHash == $storedHash) {
             </div>
         </div>";
 }
-header("location: ../message");
+header("location: ../message.php");
 
 
 /*if ($result) {

@@ -2,4 +2,4 @@
 session_start();
 session_destroy();
 
-header("Location: ../Home");
+header("Location: ../Home.php");

@@ -33,7 +33,7 @@
                         <span class="icon-bar"></span>
                     </button>
                     <a class="navbar-brand" href="Home.php">
-                        <img src="Images/Logos/NewLogoDesignCroppedHueUpdate.png" alt="Wet Pwnage" alt="Uber Domination">
+                        <img src="../../Images/Logos/NewLogoDesignCroppedHueUpdate.png" alt="Wet Pwnage" alt="Uber Domination">
                     </a>
                 </div>
                 <div class="navbar-collapse collapse" id="myNavbar">
@@ -80,7 +80,7 @@
                             <a class='dropdown-toggle' href='#' data-toggle='dropdown'>Log In <strong class='caret'></strong></a>
                             <div class='dropdown-menu'>
                             <!-- Login form here -->
-                                <form action='includes/login' method='POST' accept-charset='UTF-8'>
+                                <form action='includes/login.php' method='POST' accept-charset='UTF-8'>
                                         <div class='input-group'>
                                             <span class='input-group-addon'><i class='glyphicon glyphicon-user'></i></span>
                                             <input id='username' class='form-control' type='text' name='username' placeholder='Username' />

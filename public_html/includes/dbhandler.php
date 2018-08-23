@@ -5,7 +5,8 @@ $username = "wetpwnag";
 $password = "D!rtyW@t3r";
 $database = "wetpwnag_Website";
 
-$conn = mysqli_connect($servername, $username, $password, $database);
+$conn = pg_connect(getenv("DATABASE_URL"));
+# $conn = mysqli_connect($servername, $username, $password, $database);
 /*$conn = mysqli_connect('localhost', 'root', '', 'authentication');*/
 
 if (!$conn) {
