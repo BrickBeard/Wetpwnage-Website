@@ -1,0 +1,611 @@
+* {
+    margin: 0;
+    padding: 0;
+    border: 0;
+}
+/*------------ NAVBAR START ------------*/
+.navbar-header img {
+    margin: -15px -10px; 
+}
+#myNavbar ul li > a {
+    color: #ecf0f1/*#649105*/;
+    font-size: 110%;
+    margin-bottom: -2px;
+}
+#myNavbar ul li:hover > a{
+    color: #649105/*#ecf0f1*/;
+}
+#myNavbar ul .active > a {
+    color: #649105;
+}
+#myNavbar ul .active #gamesMenu a {
+    color: #ecf0f1;
+}
+#myNavbar ul .active #gamesMenu li:hover a {
+    color: #649105;
+}
+#myNavbar ul .dropdown > div {
+    width: 300px; 
+    padding: 15px; 
+    padding-bottom: 0;
+}
+#myNavbar ul .dropdown form div {
+    margin: 2px;    
+}
+/*#myNavbar .gamesNav .dropdown-menu {
+    background-color: rgba(0,0,0,.9);
+}
+#myNavbar .gamesNav ul li:hover a {
+    background-color: rgba(0,0,0,0) !important;
+    color: #ecf0f1;
+}*/
+.dropbtn {
+    padding: 16px;
+    cursor: pointer; 
+}
+.gamesNav {
+    position: relative;
+    display: inline-block;
+}
+.dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: rgba(0,0,0,.9) !important;
+    margin-top: 5px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+}
+.gamesNav .dropdown-content li a {
+    padding: 8px 10px;
+    text-decoration: none;
+    display: block;
+}
+.gamesNav .dropdown-content li:hover a {
+    background-color: rgba(0,0,0,0) !important;
+}
+.gamesNav:hover .dropdown-content {
+    display: block;
+}
+.
+#accountLink span i {
+    color: #ecf0f1;
+}
+#accountLink span #accountIcon {
+    font-size: 90%;
+    margin-top: -4px;
+}
+#accountLink span a {
+    text-decoration: none;
+    color: #ecf0f1;
+    font-size: 90%;
+}
+#accountLink span:hover i {
+    color: #649105;
+}
+#accountLink span:hover a {
+    color: #649105;
+}
+#myNavbar ul .active a i {
+    color: #649105;
+}
+#myNavbar ul .active a {
+    color: #649105;
+}
+.loggedInInfo {
+    float: right;
+    background-color: rgba(255,255,255,.5);
+    border: 1px solid rgba(255,255,255,.5);
+    border-radius: 0 0 0 5px;
+    padding: 0 10px;
+}
+.loggedInInfo a {
+    float: right;
+    margin-left: 5px;
+}
+.loggedInInfo span {
+    color: #649105;
+    font-weight: bold;
+}
+#registerHeader {
+    margin: auto;
+    margin-top: 70px;
+    width: 40%;
+    width: 600px;
+    padding: 10px;
+    text-align: center;
+    background-color: rgba(0,0,0,.7);
+    border-radius: 10px;
+    color: #ecf0f1;
+    padding-bottom: 20px;
+}
+#registerForm {
+    margin: auto;
+    margin-top: 30px;
+    margin-bottom: 70px;
+    width: 40%;
+    width: 600px;
+    padding: 20px;
+    text-align: center;
+    background-color: rgba(0,0,0,.7);
+    border-radius: 10px;
+}
+#registerForm form .input-group {
+    margin: 5px;
+}
+#registerForm form div .input-group-addon {
+    min-width: 60px;
+}
+#registerForm > h2 {
+    color: #ecf0f1;
+}
+
+/*------------ UPPER BODY START -------------*/
+div.jumbotron {
+    background-color: transparent/*#649105*/;
+    margin: -20px 0;
+}
+div.jumbotron h1 {
+    font-family: 'Pathway Gothic One', sans-serif;
+    font-size: 600%;
+    text-shadow: 3px 3px 6px #649105;
+}
+
+.bannerCarousel {
+    background-color: rgba(0,0,0,.7);
+    padding-top: 40px;
+    padding-bottom: 20px;
+}
+.carousel {
+    max-height: 500px; 
+    min-height: 500px; 
+    overflow: hidden;
+    width: 100%;
+    margin: 0 auto;
+}
+.item {
+    max-height: 480px;
+    max-width: 800px;
+    overflow: hidden;
+}
+
+.slider-size {
+    min-height: 480px;
+    max-height: 480px;
+    width: 100%;
+    margin: auto;
+}
+.carousel-indicators {
+    top: 480px;
+}
+.carousel-control {
+    height: 480px;
+}
+.hero-video-wrap {
+    overflow: hidden;
+    position: fixed;
+    height: 99%;
+    width: 100%;
+    top: 0;
+    left: 0;
+    z-index: -1;
+    background-position: 50% 50%;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    background-attachment: fixed;
+}
+.hero-video-wrap .hero-video {
+    position: absolute;
+    top: 0 !important;
+    left: 0 !important;
+    height: 100% !important;
+    width: 100% !important;
+}
+video {
+    display: inline-block;
+    vertical-align: baseline;
+}
+.hero-video-wrap .hero-video video {
+    -moz-transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    -webkit-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+    min-width: 100%;
+    min-height: 102%;
+    width: auto;
+    object-position: contain;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+}
+#mediaHeaderBox h2 {
+    height: 60px;
+    padding-top: 10px;
+    background-color: rgba(0,0,0,1);
+    border-radius: 5px 5px 0 0;
+}
+
+code {
+    padding: 2px 4px;
+    font-size: 90%;
+    color: #c7254e;
+    background-color: #f9f2f4;
+    border-radius: 4px;
+}
+body {
+   background: url(../../Images/Logos/MicheDesignLogoMockupV23.jpg) no-repeat center center fixed;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+}
+.upperBody > h1 {
+    color: #ecf0f1;
+    background-color: rgba(0,0,0,.9);
+    font-family: 'Pathway Gothic One', sans-serif;
+    font-size: 400%;
+    clear: both;
+}
+.upperBody div > h2 {
+    margin-left: -30px;
+    margin-right: -15px;
+    color: #ecf0f1;
+    background-color: rgba(0,0,0,.9);
+}
+.bodyNav div {
+    height: 200px;
+    display: table;
+}
+.bodyNav > div > a {
+    text-decoration: none;
+    color: #ecf0f1;
+    display: table-cell;
+    vertical-align: middle;
+    font-size: 200%;
+    background-color: rgba(89, 129, 4, 0.7);
+    border-radius: 10px;
+}
+.bodyNav > div > div {
+    border: 1px dashed yellow;
+}
+.bodyNav > div > div > a {
+    text-decoration: none;
+    color: #ecf0f1;
+    display: table-cell;
+    vertical-align: middle;
+    text-align: center;
+    font-size: 200%;
+    background-color: rgba(89, 129, 4, 0.7);
+    border-radius: 10px;
+}
+.theTeam {
+    /*padding: 40px 0;*/
+    background-color: rgba(0,0,0,.7);
+    margin: -10px 0 -40px 0;
+}
+#selectTeam {
+    color: #ecf0f1;
+    margin-top: 5px;
+}
+.theTeam > div {
+    height: 200px;
+    padding-top: 30px;
+}
+.teamBackground {
+    background-color: rgba(255,255,255,.4);
+    border: 2px solid #ecf0f1;
+    border-radius: 10px;
+    margin-bottom: 10px;
+}
+.teamHighlight {
+    background-color: rgba(89,129,4,.8);
+    color: #ecf0f1;
+}
+.teamBackground:hover {
+    background-color: rgba(89, 129, 4, 0.7);
+}
+.teamBackground:hover p {
+    color: #ecf0f1;
+}
+.teamBackground p {
+    margin-top: 10px;
+}
+.theTeam div a {
+    display: none;
+    text-decoration: none;
+    color: #ecf0f1;
+    border: 1px solid #ecf0f1;
+    border-radius: 4px;
+    padding: 5px;
+    background-color: rgba(89,129,4,.7);
+    margin-top: 10px;
+}
+.theTeam div a:hover {
+    background-color: rgba(255,255,255,.4);
+    color: rgb(0,0,0);
+}
+.memberInfo {
+    margin-top: 25px;
+    margin-bottom: 50px;
+    color: #ecf0f1;
+    background-color: rgba(255,255,255,.4);
+    border: 2px solid #ecf0f1;
+    border-radius: 10px;
+    display: block;
+    
+}
+.memberInfo > h2 {
+    text-align: center;
+    font-family: 'Pathway Gothic One', sans-serif;
+    font-size: 300%;
+    margin: 5px -5px !important;
+}
+.memberInfo span {
+    position: relative;
+    float: left;
+    margin-bottom: 10px;
+    margin-right: 10px;
+}
+.memberInfo span i {
+    color: rgba(0,0,0,.7);
+}
+.memberInfo p, .memberInfo ul {
+    color: black;
+    font-size: 1.20em;
+    margin-left: 10px;
+}
+.memberInfo ul {
+    list-style-position: inside;
+    list-style-type: square;  
+    text-indent: 1em;
+}
+.gamesContent div ul div li:hover {
+    background-color: rgba(0,0,0,.3) !important;
+}
+.gamesContent div ul div li:hover a {
+    font-weight: bold;
+}
+/*------------ LOWER BODY START ------------*/
+.lowerBody {
+    margin-bottom: 500px;
+}
+.homeContentBox {
+    background-color: rgba(0,0,0,.7);
+    border-radius: 10px;
+    min-height: 100px !important;
+    margin: 20px 0;
+}
+.homeContentBox > span {
+    display: block;
+    font-size: 200%;
+}
+.homeContentBox span, .homeContentBox p {
+    color: #ecf0f1;
+    margin: 5px 0;
+}
+.homeContentBox p {
+    font-size: 125%;
+}
+.homeContentBox p span {
+    color: #649105;
+    font-size: 125%;
+}
+.accountTab h1,
+.profileTab h1 {
+    background-color: rgba(255,255,255,.9);
+    border: 1px solid black;
+    border-radius: 5px 5px 0 0;
+}
+.accountTab form,
+.profileTab > div,
+.profileTab form {
+    margin-top: -8px;
+    background-color: rgba(255,255,255,.9);
+    border: 1px solid black;
+    border-radius: 0 0 5px 5px;
+}
+.accountTab form > a,
+.profileTab div a {
+    text-decoration: none;
+    text-align: right;
+}
+.accountTab form div:first-child,
+.profileTab div:first-child,
+.profileTab form div:first-child {
+    margin-top: 10px;
+}
+.accountTab form div,
+.profileTab div .data-group {
+    margin-bottom: 3px;
+}
+.accountTab form div .accountView p,
+.profileTab form div .profileView p,
+.profileTab div .data-group p {
+    display: inline-block;
+    margin-top: 6px;
+}
+.accountView .form-control,
+.profileView .form-control {
+    border: 0;
+    background-color: rgba(255,255,255,0);
+}
+
+.feedback {
+    background-color: rgba(0,0,0,.3);
+    margin-top: 100px;
+}
+.feedback > h2 {
+    color: #ecf0f1;
+    background-color: rgba(0,0,0,.8);
+    font-family: 'Pathway Gothic One', sans-serif;
+    font-size: 300%;
+}
+/*------------ EMAIL FORM START ------------*/
+#emailForm {
+    margin-top: 15px;
+    margin-bottom: 100px;
+}
+.labelFocus {
+    background-color: rgba(89, 129, 4, 0.9)/*rgba(222, 45, 45, 0.4)*/;
+}
+.label {
+    background-color: rgba(0,0,0,.9);
+}
+.contact-form-group label {
+    font-size: 150%;
+    color: #ecf0f1;
+    border-radius: 5px;
+    width: 150px;
+    float: left;
+}
+#emailToDisplay {
+    margin-top: 50px;
+}
+#emailToDisplay > h4 {
+    margin: 10px -40px;
+    font-weight: bold;
+}
+.emailToRecipient {
+    background-color: rgba(89, 129, 4, 0.8);
+    color: #ecf0f1;
+    border-radius: 10px;
+    height: 130px;
+    margin: 0 -40px;
+}
+.emailToRecipient img {
+    margin-top: 5px;
+}
+.emailToRecipient p {
+    margin-top: 5px;
+}
+/*------------ FOOTER START ------------*/
+footer {
+    background-color: rgba(0,0,0,.9);
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+}
+.social {
+    padding-top: 2px;
+}
+.social > a {
+    padding-top: 2px;
+    border-bottom: 5px solid transparent;
+}
+.social > a:hover {
+    border: 2px solid #649105 /*#ecf0f1*/;
+    border-radius: 5px;
+    padding-bottom: 1px;
+}
+.social > a:hover i {
+    color: #649105/*#ecf0f1*/;
+}
+.social i {
+    font-size: 200%;
+    color: #ecf0f1/*#649105*/;
+}
+.second-footer {
+    background-color: transparent;
+}
+footer p {
+    margin-bottom: 0;
+}
+footer p a {
+    text-decoration: none;
+    color: #ecf0f1/*#649105*/;
+    font-size: 120%;
+}
+footer p a:hover {
+    color: #649105/*#ecf0f1*/;
+    text-decoration: none;
+}
+/*-------------- MEDIA ----------------*/ 
+@media only screen and (max-width: 768px) {
+    .navbar-header img {
+        width: 200px;
+        margin: -10px -13px; 
+    }
+    #registerHeader {
+        margin-top: 50px;
+        width: 95%;
+        font-size: 90%
+    }
+    #registerHeader h1 {
+        font-size: 200%;
+    }
+    #registerForm {
+        margin-top: 20px;
+        width: 95%;
+    }
+    #registerForm form div h1 {
+        font-size: 50%;
+    }
+    .carousel {
+        max-height: 300px; 
+        min-height: 200px; 
+    }
+    .item {
+        max-height: 280px;
+    }
+    .slider-size {
+        min-height: 280px;
+        max-height: 280px;
+    }
+    .carousel-indicators {
+        top: 280px;
+    }
+    .carousel-control {
+        z-index: 1000;
+        height: 180px;
+    }
+    body {
+        background: url(../../Images/Logos/MicheDesignLogoMockupV23-small.jpg) no-repeat center center fixed;
+    }
+    div.jumbotron h1 {
+        font-size: 500%;
+    }
+    div.jumbotron h3 kbd {
+        font-size: 80%;
+    }
+    .feedback {
+    margin-top: 50px;
+    }
+    .feedback > h2 {
+        font-size: 250%;
+    }
+    .contact-form-group label {
+        font-size: 120%;
+    }
+    .contact-form-control {
+        font-size: 85%;
+    }
+    .memberInfo > h2 {
+        font-size: 200%;
+    }
+    .memberInfo p, .memberInfo ul {
+        font-size: 1em;
+    }
+    .social i {
+        font-size: 170%;
+    }
+    footer p a {
+        font-size: 80%;
+        background-color: transparent;
+    }
+    #emailToDisplay {
+        margin-top: 0;
+        margin-bottom: 30px;
+    }
+    #myNavbar ul .dropdown > div {
+        width: 100%;
+    }
+    #mediaHeaderBox iframe {
+        width: 100% !important;
+        height: auto !important;
+        min-height: 300px;
+    }
+}
+
+
+/*-------------- Custom Buttons ----------------*/ 
