@@ -32,12 +32,12 @@
                         <span class="icon-bar"></span>
                     </button>
                     <a class="navbar-brand" href="Home">
-                        <img src="Images/Logos/NewLogoDesignCroppedHueUpdate.png" alt="Wet Pownage" alt="Wet Pownage">
+                        <img src="Images/Logos/NewLogoDesignCroppedHueUpdate.png" alt="Wet Pwnage" alt="Uber Domination">
                     </a>
                 </div>
                 <div class="navbar-collapse collapse" id="myNavbar">
                     <ul class="nav navbar-nav navbar-right">
-                        <li class='<?php echo $home_active; ?>'><a href="Home">Home</a></li>
+                        <li class='<?php echo $home_active; ?>'><a href="Home.php">Home</a></li>
                         <li class="dropdown gamesNav <?php echo $portfolio_active; ?>">
                             <a href="#" class="dropbtn">Portfolio</a>
                             <!--<div class="dropdown-content">
