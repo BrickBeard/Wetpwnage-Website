@@ -56,7 +56,7 @@
                             </div>
                             <div class="col-xs-12 text-right accountManage">
                                 <a href="#" id="manageAccount"><i class="fa fa-cog"> Update Account</i></a>
-                                <a href="myAccount" style="display:none;" id="cancel" name="cancel" class="btn btn-default">Cancel</a>
+                                <a href="myAccount.php" style="display:none;" id="cancel" name="cancel" class="btn btn-default">Cancel</a>
                                 <button style="display:none;" id="submit" name="submit" class="btn btn-primary">Update</button>
                             </div>
                             <br>
@@ -118,7 +118,7 @@
                                 </div>
                             </div>                      
                             <div class="col-xs-12 text-right accountManage">
-                                <a href="myAccount" id="cancel" name="cancel" class="btn btn-default">Cancel</a>
+                                <a href="myAccount.php" id="cancel" name="cancel" class="btn btn-default">Cancel</a>
                                 <button id="submit" name="submit" class="btn btn-primary">Update</button>
                             </div>
                             <br>
