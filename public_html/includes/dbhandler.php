@@ -5,7 +5,12 @@ $username = "wetpwnag";
 $password = "D!rtyW@t3r";
 $database = "wetpwnag_Website";
 */
-$conn = pg_connect(getenv("DATABASE_URL"));
+function string_from_db_url() {
+    extract(parse_url($_ENV["DATABASE_URL"]));
+    return "user=$user password=$pass host=$host dbname=" . substr($path, 1);
+}
+
+$conn = pg_connect(string_from_db_url());
 /*
 $conn = mysqli_connect($servername, $username, $password, $database);
 $conn = mysqli_connect('localhost', 'root', '', 'authentication');
