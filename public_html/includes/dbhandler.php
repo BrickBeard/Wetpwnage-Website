@@ -7,7 +7,7 @@ $database = "wetpwnag_Website";
 */
 function string_from_db_url() {
     extract(parse_url($_ENV["DATABASE_URL"]));
-    return "user=$user password=$pass host=$host dbname=" . substr($path, 1);
+    return "user=$user password=$pass host=$host dbname=$dbname" . substr($path, 1);
 }
 
 $conn = pg_connect(string_from_db_url());

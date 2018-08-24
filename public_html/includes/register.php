@@ -33,7 +33,7 @@ if($flag == TRUE) {
     $salted = $userSalt.$password;
     $hashed = hash('sha512', $salted);
     
-    $sql = "INSERT INTO user_table (first_name, last_name, email, username, password, salt, initials) VALUES ($first, $last, $email, $username, $hashed, $userSalt, $initials)";
+    $sql = "INSERT INTO user_table (first_name, last_name, email, username, password, salt, initials) VALUES ('$first', '$last', '$email', '$username', '$hashed', '$userSalt', '$initials')";
 
     $result = pg_query($sql);
     $_SESSION['message'] = "<div class='container-fluid text-center'><div class='col-xs-12'><h1>Thank you for registering with us!</h1><br><p>Feel free to browse the site while we process your information!</p><br><a href='Home.php' class='btn btn-success' role='button'>Return to Home</a></div></div>";
