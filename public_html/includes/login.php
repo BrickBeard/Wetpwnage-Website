@@ -7,8 +7,8 @@ include 'dbhandler.php';
 $username = $_POST['username'];
 $password = $_POST['password'];
 
-$sql = "SELECT * FROM user_table WHERE username = '$username'";
-$result = pg_query($conn, $sql) or die("Bad SQL: $sql");
+$sql = "SELECT * FROM user_table WHERE username = $username";
+$result = pg_query($conn, $sql);
 
 if (!$row = pg_fetch_assoc($result)) {
     $_SESSION['message'] = "
@@ -16,8 +16,8 @@ if (!$row = pg_fetch_assoc($result)) {
             <div class='col-xs-12'>
                 <h1>Username or password is incorrect!</h1><br>
                 <p>Please try again or register below if you haven't already!</p><br>
-                <a href='../Home' class='btn btn-success' role='button' style='margin: 5px;'>Return to Home</a>
-                <a href='../Registration' class='btn btn-default' role='button' style='margin: 5px;'>Register Now</a>
+                <a href='Home' class='btn btn-success' role='button' style='margin: 5px;'>Return to Home</a>
+                <a href='Registration' class='btn btn-default' role='button' style='margin: 5px;'>Register Now</a>
             </div>
         </div>";
     header("location: ../message.php");
@@ -42,9 +42,9 @@ if ($checkHash == $storedHash) {
             <div class='col-xs-12'>
                 <h1>Welcome back <strong><u>".$_SESSION['username']."</u></strong>!</h1><br>
                 <p>We're still working hard to make your experience here a memorable one!  If you have any questions or ideas please contact us below.  Otherwise, enjoy your day!</p><br>
-                <a href='../myAccount' class='btn btn-success' role='button' style='margin: 5px;'>My Account</a>
-                <a href='../Home' class='btn btn-primary' role='button' style='margin: 5px;'>Home</a>
-                <a href='../Leaderboards' class='btn btn-success' role='button' style='margin: 5px;'>Leaderboards</a>
+                <a href='myAccount' class='btn btn-success' role='button' style='margin: 5px;'>My Account</a>
+                <a href='Home' class='btn btn-primary' role='button' style='margin: 5px;'>Home</a>
+                <a href='Leaderboards' class='btn btn-success' role='button' style='margin: 5px;'>Leaderboards</a>
             </div>
         </div>";
 } else {
@@ -54,7 +54,7 @@ if ($checkHash == $storedHash) {
             <div class='col-xs-12'>
                 <h1>Forgot your password?</h1><br>
                 <p>Please try logging in again.  If the problem persists, please send Support an email on the 'Contact Us' page.</p><br>
-                <a href='../Home.php' class='btn btn-success' role='button'>Return to Home</a>
+                <a href='Home.php' class='btn btn-success' role='button'>Return to Home</a>
             </div>
         </div>";
 }
