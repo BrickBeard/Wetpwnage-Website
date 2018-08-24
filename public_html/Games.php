@@ -130,7 +130,9 @@
                 </div>
             </div>-->
         </div>
+        
         <div class="container gamesContent">
+        <!--
             <div class="row">
                 <div class="bodyNav text-center">
                     <div class="col-xs-6 col-sm-4 col-sm-offset-1"><a href="Media.php">Media</a></div>
@@ -148,9 +150,9 @@
                             <a href="Leaderboards">Test Block 2</a>
                         </div>
                     </div>
-                </div>-->
+                </div>
             </div>
-               
+               -->
             <!--<div class="row" style="margin-top:25px;padding:20px 0;margin: 20px 0;">
                 <ul>
                     <div class="col-xs-12 col-sm-4 col-lg-3 text-center" style="background-color:rgba(255,255,255,.5);padding-bottom:5px;margin-right:20px;">
