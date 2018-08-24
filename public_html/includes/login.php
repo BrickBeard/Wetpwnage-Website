@@ -7,7 +7,7 @@ include 'dbhandler.php';
 $username = $_POST['username'];
 $password = $_POST['password'];
 
-$sql = "SELECT * FROM user_table WHERE username = $username";
+$sql = "SELECT * FROM user_table WHERE username = '$username'";
 $result = pg_query($conn, $sql);
 
 if (!$row = pg_fetch_assoc($result)) {
