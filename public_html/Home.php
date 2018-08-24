@@ -72,7 +72,7 @@
             <div class="container-fluid">
                 <div class="row">
                     <div class="col-xs-10 col-xs-offset-1 col-sm-8 col-sm-offset-2 homeContentBox text-center">
-                        <span>Welcome!  This is a temporary display state for this website.  The client has since shifted over to a Wix.com page as the increase of my work and family demands increased.<br/><br/> As you will see, some of the features on this site are no longer functional.  For example, the contact us email feature is inactive and the database has been moved to Postgres from mysql and I did not have the time to map everything out perfectly.</span>
+                        <span>Welcome!  This is a temporary display state for this website.  The client has since shifted over to a Wix.com page as my work and family demands increased.<br/><br/> As you will see, some of the features on this site are no longer functional.  For example, the contact us email feature is inactive and the database has been moved to Postgres from mysql and I did not have the time to map everything out perfectly.</span>
                     </div>
                 </div>
                 <?php 
