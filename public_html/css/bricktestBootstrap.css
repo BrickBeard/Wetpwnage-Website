@@ -605,6 +605,9 @@ footer p a:hover {
         height: auto !important;
         min-height: 300px;
     }
+    .homeContentBox span {
+        font-size: 90%;
+    }
 }
 
 
