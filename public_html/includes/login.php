@@ -54,7 +54,7 @@ if ($checkHash == $storedHash) {
             <div class='col-xs-12'>
                 <h1>Forgot your password?</h1><br>
                 <p>Please try logging in again.  If the problem persists, please send Support an email on the 'Contact Us' page.</p><br>
-                <a href='../Home' class='btn btn-success' role='button'>Return to Home</a>
+                <a href='../Home.php' class='btn btn-success' role='button'>Return to Home</a>
             </div>
         </div>";
 }
