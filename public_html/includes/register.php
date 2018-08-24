@@ -35,16 +35,16 @@ if($flag == TRUE) {
     
     $sql = "INSERT INTO user_table (first_name, last_name, email, username, password, salt, initials) VALUES ('$first', '$last', '$email', '$username', '$hashed', '$userSalt', '$initials')";
 
-    $result = $conn->query($sql);
+    $result = $pg_query($sql);
     $_SESSION['message'] = "<div class='container-fluid text-center'><div class='col-xs-12'><h1>Thank you for registering with us!</h1><br><p>Feel free to browse the site while we process your information!</p><br><a href='../Home' class='btn btn-success' role='button'>Return to Home</a></div></div>";
-    header("location: ../message");
+    header("location: ../message.php");
     /*echo "<script language='javascript' type='text/javascript'>
         alert('Thank you for registering with us!\n$salted');
         window.location = 'Home';
     </script>";*/
 } else {
 
-    header("location: ../Home" );
+    header("location: ../Home.php" );
 }
 
 

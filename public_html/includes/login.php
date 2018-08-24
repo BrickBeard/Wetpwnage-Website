@@ -8,9 +8,9 @@ $username = $_POST['username'];
 $password = $_POST['password'];
 
 $sql = "SELECT * FROM user_table WHERE username = '$username'";
-$result = mysqli_query($conn, $sql) or die("Bad SQL: $sql");
+$result = pg_query($conn, $sql) or die("Bad SQL: $sql");
 
-if (!$row = mysqli_fetch_assoc($result)) {
+if (!$row = pg_fetch_assoc($result)) {
     $_SESSION['message'] = "
         <div class='container-fluid text-center message'>
             <div class='col-xs-12'>
@@ -20,7 +20,7 @@ if (!$row = mysqli_fetch_assoc($result)) {
                 <a href='../Registration' class='btn btn-default' role='button' style='margin: 5px;'>Register Now</a>
             </div>
         </div>";
-    header("location: ../message");
+    header("location: ../message.php");
     break;
 } else {
     $storedSalt = $row['salt'];
