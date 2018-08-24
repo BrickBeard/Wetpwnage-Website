@@ -69,8 +69,8 @@
         <div class="container gamesContent">
             <div class="row">
                 <div class="bodyNav text-center">
-                    <div class="col-xs-6 col-sm-4 col-sm-offset-1"><a href="Media">Media</a></div>
-                    <div class="col-xs-6 col-sm-4 col-sm-offset-2"><a href="Leaderboards">Leaderboards</a></div>
+                    <div class="col-xs-6 col-sm-4 col-sm-offset-1"><a href="Media.php">Media</a></div>
+                    <div class="col-xs-6 col-sm-4 col-sm-offset-2"><a href="Leaderboards.php">Leaderboards</a></div>
                     <div class="visible-sm col-sm-1" style="background:rgba(60,60,60,.5);"></div>
                 </div>
                 <!--<div class="bodyNav text-center">
