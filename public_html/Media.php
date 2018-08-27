@@ -56,7 +56,7 @@
                         <img src="media/RTS/deer vs chicken.png" style="width:100%">
                         <img src="media/RTS/foxes.png" style="width:100%">
                         <img src="media/RTS/foxes3.png" style="width:100%">
-                        <img src="media/RTS/img_20180220.jpg" style="width:100%">
+                        <img src="media/RTS/IMG_20180220_133231.jpg" style="width:100%">
                     </div>
     <!--
                     <div class="column">

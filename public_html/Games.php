@@ -49,7 +49,7 @@
                 </div>
             </div>
             
-                        <div class="responsive">
+            <div class="responsive">
                 <div class="gallery">
                     <a target="_blank" href="media/SpankBall/thumbnails/sbThumb06.png">
                       <img src="media/SpankBall/thumbnails/sbThumb06.png" alt="Thumbnail 6" width="300" height="200">
