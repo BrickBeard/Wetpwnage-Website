@@ -47,10 +47,6 @@
                             </div>-->
                             <ul class="dropdown-content dropdown-menu" role="menu" id="gamesMenu">
                                 <li><a href="underConstruction.php">Projects</a>
-                                    <!--<ul class="nav navbar-nav menu">
-                                        <li>SpankBall (Under Construction)</li>
-                                        <li>Project 2 (Under Construction)</li>
-                                    </ul>-->
                                 </li>   
                                 <li><a href="underConstruction.php">In-Development</a></li>
                             </ul> 

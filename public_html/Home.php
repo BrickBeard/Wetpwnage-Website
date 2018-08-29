@@ -11,61 +11,6 @@
                     <h3><kbd>Under Construction</kbd></h3>
                 </div>
             </div>
-     <!--       <div class="container-fluid bannerCarousel">
-                <div class="row">
-                    <div class="col-xs-12 col-sm-10 col-sm-offset-1">
-                        <div id="imageCarousel" class="carousel slide">
-                         data-interval="false" to stop automove
-                          <ol class="carousel-indicators">
-                              <li data-target="#imageCarousel" data-slide-to="0" class="active"></li>
-                              <li data-target="#imageCarousel" data-slide-to="1"></li>
-                              <li data-target="#imageCarousel" data-slide-to="2"></li>
-                              <li data-target="#imageCarousel" data-slide-to="3"></li>
-                          </ol>
-                            <div class="carousel-inner">
-                                <div class="item active">
-                                    <div style="background:url(Images/Logos/02_LogoMockup.jpg) center center; background-size:cover;" class="slider-size">
-                                        <div class="carousel-caption">
-                                           <h3>Wetpwnage</h3>
-                                           <p>Background Image</p>
-                                        </div>
-                                    </div>
-                                </div>
-                               <div class="item">
-                                   <div style="background:url(Images/Logos/3DLogoMockupC.jpg) center center; background-size:cover;" class="slider-size">
-                                        <div class="carousel-caption">
-                                           <h3></h3>
-                                           <p></p>
-                                        </div>
-                                   </div>
-                               </div>
-                               <div class="item">
-                                   <div style="background:url(Images/Logos/MicheDesignLogoMockupV23.jpg) center center; background-size:cover;" class="slider-size">
-                                        <div class="carousel-caption">
-                                           <h3></h3>
-                                           <p></p>
-                                        </div>
-                                   </div>                                 
-                               </div>
-                               <div class="item">
-                                   <div style="background:url(Images/Logos/whitepad_2.jpg) center center; background-size:cover;" class="slider-size">
-                                        <div class="carousel-caption">
-                                           <h3></h3>
-                                           <p></p>
-                                        </div>
-                                   </div>                                 
-                               </div>
-                            </div>
-                            <a href="#imageCarousel" class="carousel-control left" data-slide="prev">
-                                <span class="glyphicon glyphicon-chevron-left"></span>
-                            </a>
-                            <a href="#imageCarousel" class="carousel-control right" data-slide="next">
-                                <span class="glyphicon glyphicon-chevron-right"></span>
-                            </a>    
-                        </div>
-                    </div>
-                </div>
-            </div>-->
         </div>
 <!---------- LOWER BODY ---------->        
         <div class="lowerBody text-center">
@@ -88,10 +33,6 @@
 <?php
     include 'includes/footer.php';
 ?>
-
-
-
-
 
 
 
